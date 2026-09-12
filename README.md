@@ -1,28 +1,30 @@
->>>>Inventory System
+Inventory System
 
 A simple inventory management system developed using ReactJS, Ant Design, ExpressJS, and Microsoft SQL Server.
 
 How to Run
 1. Clone the Repository
-git clone (https://github.com/shamelaira/inventory-system.git)
+>git clone (https://github.com/shamelaira/inventory-system.git)
 cd "Inventory System"
 
 2. Set Up the Database
 Open SQL Server Management Studio (SSMS).
 Open the SQL script located at:
->>database/InventoryDB.sql
-Execute the script.
 
+>database/InventoryDB.sql
+
+Execute the script.
 Make sure the database is created as:
->>InventoryDB
+>InventoryDB
+
 Make sure SQL Server is running.
 
 3. Install Backend Dependencies
 
 Open a terminal in the project folder:
 
-cd server
-npm install
+>cd server
+>npm install
 
 4. Configure the Backend
 
@@ -38,14 +40,14 @@ Inside the server folder, run:
 
 The backend will run on:
 
-http://localhost:5000
+>http://localhost:5000
 
 6. Install Frontend Dependencies
 
 Open another terminal:
 
-cd client
-npm install
+>cd client
+>npm install
 
 7. Run the Frontend
 >npm run dev
